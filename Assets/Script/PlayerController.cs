@@ -28,6 +28,11 @@ public class PlayerController : MonoBehaviour
 
     public bool stopInput;
 
+    public GameObject bullet;
+    public Transform firePoint;
+
+    public Transform thePlayer;
+
     private void Awake()
     {
         instance = this;
@@ -62,10 +67,6 @@ public class PlayerController : MonoBehaviour
         if (isGrounded)
         {
         canDoubleJump = true;
-        if (Input.GetMouseButtonDown(0))
-            {
-            anim.SetTrigger("shot");
-            }
         }
 
         if (Input.GetButtonDown("Jump"))
@@ -83,6 +84,15 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+        
+         //弾を打つ
+        if (Input.GetMouseButtonDown(0))
+            {
+                anim.SetTrigger("shot");
+                var newBullet = Instantiate(bullet, firePoint.position, firePoint.rotation);
+                    newBullet.transform.localScale = new Vector3 (1f * thePlayer.localScale.x,0.7f,0);
+            }
+
         anim.SetFloat("moveSpeed", Mathf.Abs(theRB.velocity.x));
         anim.SetBool("isGrounded", isGrounded);
     }
