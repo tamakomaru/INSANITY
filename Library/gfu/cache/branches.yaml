@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-12-07T15:35:50.110+09:00
-  initializedAtString: 2020-12-07T15:24:56.498+09:00
+  lastUpdatedAtString: 2020-12-07T17:18:45.113+09:00
+  initializedAtString: 2020-12-07T16:18:56.659+09:00
   localBranches:
   - name: "\u30D7\u30EC\u30A4\u30E4\u30FC"
     tracking: "origin/\u30D7\u30EC\u30A4\u30E4\u30FC"
+  - name: "\u30DE\u30C3\u30D7"
+    tracking: 
   remoteBranches:
   - name: origin/main
     tracking: '[None]'
@@ -34,12 +36,18 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - "\u30D7\u30EC\u30A4\u30E4\u30FC"
+    - "\u30DE\u30C3\u30D7"
     values:
     - name: "\u30D7\u30EC\u30A4\u30E4\u30FC"
       remote:
         name: origin
         url: https://github.com/tamakomaru/Robo.git
       trackingBranch: "\u30D7\u30EC\u30A4\u30E4\u30FC"
+    - name: "\u30DE\u30C3\u30D7"
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
   remoteConfigBranches:
     keys:
     - origin
