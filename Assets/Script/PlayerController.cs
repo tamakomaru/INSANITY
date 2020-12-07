@@ -49,6 +49,10 @@ public class PlayerController : MonoBehaviour
         if (isGrounded)
         {
         canDoubleJump = true;
+        if (Input.GetMouseButtonDown(0))
+            {
+            anim.SetTrigger("shot");
+            }
         }
 
         if (Input.GetButtonDown("Jump"))
