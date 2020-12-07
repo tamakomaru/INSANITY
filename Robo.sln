@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.InternalAPIEngineBrid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.Common.Runtime", "Unity.2D.Common.Runtime.csproj", "{87dca033-9721-bae8-9544-06a8af3038bf}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{f85d3dd7-e290-7135-cf16-2a172128bc30}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.TestRunner", "UnityEditor.TestRunner.csproj", "{9008d2f8-cff1-2171-e772-b31f00d246b6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.TextMeshPro.Editor", "Unity.TextMeshPro.Editor.csproj", "{6492d4cf-2ef4-5088-4475-7aa39b16fcdc}"
@@ -88,6 +90,8 @@ Global
 		{3fb02a73-968d-e8ae-d82d-691db0979612}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87dca033-9721-bae8-9544-06a8af3038bf}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{87dca033-9721-bae8-9544-06a8af3038bf}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f85d3dd7-e290-7135-cf16-2a172128bc30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f85d3dd7-e290-7135-cf16-2a172128bc30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9008d2f8-cff1-2171-e772-b31f00d246b6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9008d2f8-cff1-2171-e772-b31f00d246b6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6492d4cf-2ef4-5088-4475-7aa39b16fcdc}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
