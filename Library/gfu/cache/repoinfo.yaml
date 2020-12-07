@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1109517887, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 1
+  lastUpdatedAtString: 2020-12-07T15:09:36.437+09:00
+  initializedAtString: 2020-12-07T15:09:36.437+09:00
+  currentGitRemote:
+    name: origin
+    url: https://github.com/tamakomaru/Robo.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  currentGitBranch:
+    name: "\u30D7\u30EC\u30A4\u30E4\u30FC"
+    tracking: "origin/\u30D7\u30EC\u30A4\u30E4\u30FC"
+  currentConfigBranch:
+    name: "\u30D7\u30EC\u30A4\u30E4\u30FC"
+    remote:
+      name: origin
+      url: https://github.com/tamakomaru/Robo.git
+    trackingBranch: "\u30D7\u30EC\u30A4\u30E4\u30FC"
+  currentConfigRemote:
+    name: origin
+    url: https://github.com/tamakomaru/Robo.git
+  currentHead: 
