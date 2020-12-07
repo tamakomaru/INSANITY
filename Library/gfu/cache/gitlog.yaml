@@ -13,9 +13,111 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-12-07T15:24:57.935+09:00
+  lastUpdatedAtString: 2020-12-07T15:30:16.972+09:00
   initializedAtString: 2020-12-07T15:24:19.424+09:00
   log:
+  - commitID: 9a9ea7277d8f5921ca3acf184aa286fb7d4e288f
+    mergeA: 
+    mergeB: 
+    authorName: yuki
+    authorEmail: tamakomaru@users.noreply.github.com
+    commitEmail: tamakomaru@users.noreply.github.com
+    commitName: yuki
+    summary: "\u30B7\u30E7\u30C3\u30C8\u30E2\u30FC\u30B7\u30E7\u30F3"
+    description: 
+    timeString: 2020-12-07T15:30:14.000+09:00
+    commitTimeString: 2020-12-07T15:30:14.000+09:00
+    changes:
+    - path: Assets/Chibi Robot/Animation/Player.controller
+      fullPath: /Users/teraishiyuki/Unity/Robo/Assets/Chibi Robot/Animation/Player.controller
+      projectPath: Assets/Chibi Robot/Animation/Player.controller
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Script/PlayerController.cs
+      fullPath: /Users/teraishiyuki/Unity/Robo/Assets/Script/PlayerController.cs
+      projectPath: Assets/Script/PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ArtifactDB
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/ArtifactDB
+      projectPath: Library/ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/Artifacts/04/0497f38b38846d2d5af0016d363c951c
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/Artifacts/04/0497f38b38846d2d5af0016d363c951c
+      projectPath: Library/Artifacts/04/0497f38b38846d2d5af0016d363c951c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/ScriptAssemblies/Assembly-CSharp.pdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/SourceAssetDB
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/SourceAssetDB
+      projectPath: Library/SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/StateCache/Hierarchy/c0ab6e-mainStage.json
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/StateCache/Hierarchy/c0ab6e-mainStage.json
+      projectPath: Library/StateCache/Hierarchy/c0ab6e-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings/TagManager.asset
+      fullPath: /Users/teraishiyuki/Unity/Robo/ProjectSettings/TagManager.asset
+      projectPath: ProjectSettings/TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-f040c620096624148b315287391a8b48
+      fullPath: /Users/teraishiyuki/Unity/Robo/Temp/UnityTempFile-f040c620096624148b315287391a8b48
+      projectPath: Temp/UnityTempFile-f040c620096624148b315287391a8b48
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: bcdf02309f81b6a31b1afb3daf406d3318848018
     mergeA: 
     mergeB: 

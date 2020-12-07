@@ -42,7 +42,20 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        theRB.velocity = new Vector2(moveSpeed * Input.GetAxis("Horizontal"), theRB.velocity.y);
+        //左キー: -1、右キー: 1
+		float x = Input.GetAxisRaw ("Horizontal");
+		//左か右を入力したら
+		if (x != 0) {
+			//入力方向へ移動
+			theRB.velocity = new Vector2 (x * moveSpeed, theRB.velocity.y);
+			//localScale.xを-1にすると画像が反転する
+			Vector2 temp = transform.localScale;
+			temp.x = x;
+			transform.localScale = temp;
+		} else {
+			//横移動の速度を0にしてピタッと止まるようにする
+			theRB.velocity = new Vector2 (0, theRB.velocity.y);
+		}
 
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
 
@@ -70,16 +83,6 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
-
-        if (theRB.velocity.x < 0)
-                {
-                    theSR.flipX = true;
-                }
-                else if (theRB.velocity.x > 0)
-                {
-                    theSR.flipX = false;
-                }
-
         anim.SetFloat("moveSpeed", Mathf.Abs(theRB.velocity.x));
         anim.SetBool("isGrounded", isGrounded);
     }
