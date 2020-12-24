@@ -13,17 +13,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-12-07T17:20:00.199+09:00
-  initializedAtString: 2020-12-07T16:18:56.659+09:00
+  lastUpdatedAtString: 2020-12-08T00:56:52.612+09:00
+  initializedAtString: 2020-12-08T00:56:52.596+09:00
   localBranches:
+  - name: main
+    tracking: origin/main
   - name: "\u30D7\u30EC\u30A4\u30E4\u30FC"
     tracking: "origin/\u30D7\u30EC\u30A4\u30E4\u30FC"
   - name: "\u30DE\u30C3\u30D7"
-    tracking: 
+    tracking: "origin/\u30DE\u30C3\u30D7"
   remoteBranches:
   - name: origin/main
     tracking: '[None]'
-  - name: "origin/\u30D7\u30EC\u30A4\u30E4\u30FC"
+  - name: "origin/\u30DE\u30C3\u30D7"
     tracking: '[None]'
   remotes:
   - name: origin
@@ -35,9 +37,15 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - main
     - "\u30D7\u30EC\u30A4\u30E4\u30FC"
     - "\u30DE\u30C3\u30D7"
     values:
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/tamakomaru/Robo.git
+      trackingBranch: main
     - name: "\u30D7\u30EC\u30A4\u30E4\u30FC"
       remote:
         name: origin
@@ -45,16 +53,16 @@ MonoBehaviour:
       trackingBranch: "\u30D7\u30EC\u30A4\u30E4\u30FC"
     - name: "\u30DE\u30C3\u30D7"
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/tamakomaru/Robo.git
+      trackingBranch: "\u30DE\u30C3\u30D7"
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
       - main
-      - "\u30D7\u30EC\u30A4\u30E4\u30FC"
+      - "\u30DE\u30C3\u30D7"
     subKeyValues:
     - Values:
       - name: main
@@ -62,7 +70,7 @@ MonoBehaviour:
           name: origin
           url: https://github.com/tamakomaru/Robo.git
         trackingBranch: 
-      - name: "\u30D7\u30EC\u30A4\u30E4\u30FC"
+      - name: "\u30DE\u30C3\u30D7"
         remote:
           name: origin
           url: https://github.com/tamakomaru/Robo.git

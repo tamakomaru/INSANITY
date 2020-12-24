@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-12-07T17:19:45.824+09:00
-  initializedAtString: 2020-12-07T16:11:24.837+09:00
+  lastUpdatedAtString: 2020-12-08T15:28:21.751+09:00
+  initializedAtString: 2020-12-08T15:28:21.751+09:00
   currentGitRemote:
     name: origin
     url: https://github.com/tamakomaru/Robo.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: "\u30D7\u30EC\u30A4\u30E4\u30FC"
-    tracking: "origin/\u30D7\u30EC\u30A4\u30E4\u30FC"
+    name: main
+    tracking: origin/main
   currentConfigBranch:
-    name: "\u30D7\u30EC\u30A4\u30E4\u30FC"
+    name: main
     remote:
       name: origin
       url: https://github.com/tamakomaru/Robo.git
-    trackingBranch: "\u30D7\u30EC\u30A4\u30E4\u30FC"
+    trackingBranch: main
   currentConfigRemote:
     name: origin
     url: https://github.com/tamakomaru/Robo.git

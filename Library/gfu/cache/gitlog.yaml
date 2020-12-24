@@ -13,9 +13,87 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-12-07T17:22:00.256+09:00
+  lastUpdatedAtString: 2020-12-07T17:33:59.849+09:00
   initializedAtString: 2020-12-07T16:18:58.103+09:00
   log:
+  - commitID: 80bb84b5bbe4bb42bbb6c81f9bbeb22698394878
+    mergeA: 9af0c1e1aba06600fad1a85392cfcab4c956cfe2
+    mergeB: ffcea0e5906ef871214d19695912acbbbd70c58e
+    authorName: yuki_teraishi
+    authorEmail: 72780845+tamakomaru@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: "Merge pull request #1 from tamakomaru/\u30D7\u30EC\u30A4\u30E4\u30FC"
+    description: "\u30D7\u30EC\u30A4\u30E4\u30FC"
+    timeString: 2020-12-07T17:32:56.000+09:00
+    commitTimeString: 2020-12-07T17:32:56.000+09:00
+    changes: []
+  - commitID: ffcea0e5906ef871214d19695912acbbbd70c58e
+    mergeA: 
+    mergeB: 
+    authorName: yuki
+    authorEmail: tamakomaru@users.noreply.github.com
+    commitEmail: tamakomaru@users.noreply.github.com
+    commitName: yuki
+    summary: gitignore
+    description: 
+    timeString: 2020-12-07T17:32:24.000+09:00
+    commitTimeString: 2020-12-07T17:32:24.000+09:00
+    changes:
+    - path: .gitignore
+      fullPath: /Users/teraishiyuki/Unity/Robo/.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/SourceAssetDB
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/SourceAssetDB
+      projectPath: Library/SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gituser.yaml
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/gfu/cache/gituser.yaml
+      projectPath: Library/gfu/cache/gituser.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/teraishiyuki/Unity/Robo/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 7a5aa4d236514503072a0386084cbe1f86e9336e
     mergeA: 
     mergeB: 

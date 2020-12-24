@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bullet
+  - Enemy
+  - Charge Bullet
+  - Ruder
+  - Platform
+  - Weapon1
   layers:
   - Default
   - TransparentFX
@@ -16,9 +22,9 @@ TagManager:
   - Ground
   - Player
   - Bullet
-  - 
-  - 
-  - 
+  - Enemy
+  - Platform
+  - Weapon1
   - 
   - 
   - 
@@ -38,6 +44,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 2152743889
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Bullet
+    uniqueID: 2925313103
+    locked: 0
+  - name: Player
+    uniqueID: 1538291637
+    locked: 0
+  - name: Enemy
+    uniqueID: 3301323763
+    locked: 0
+  - name: Back Light
+    uniqueID: 18902011
     locked: 0
